@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Content404 from "../components/apply/content"
+
+---
+
+<Layout title="Apply">
+	<main>
+    <Content404 client:only="react" />
+  </main>
+</Layout>
