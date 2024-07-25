@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Apply from "../components/apply/content"
+
+---
+
+<Layout title="Apply">
+	<main>
+    <Apply client:only="react" />
+  </main>
+</Layout>

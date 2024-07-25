@@ -1,0 +1,11 @@
+---
+import React from 'react';
+import LoanCalculator from '../components/LoanCalculator';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Loan Calculator">
+  <main>
+    <LoanCalculator client:only="react" />
+  </main>
+</Layout>
